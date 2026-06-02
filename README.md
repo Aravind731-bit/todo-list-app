@@ -6,17 +6,17 @@ A simple console-based To-Do List application developed using Python. This appli
 
 ## Features
 
-- View all tasks
-- Add new tasks
-- Remove existing tasks
-- Save tasks automatically
-- Persistent task storage using `tasks.txt`
-- User-friendly menu-driven interface
+* View all tasks
+* Add new tasks
+* Remove existing tasks
+* Save tasks automatically
+* Persistent task storage using `tasks.txt`
+* User-friendly menu-driven interface
 
 ## Technologies Used
 
-- Python 3
-- File Handling
+* Python 3
+* File Handling
 
 ## Project Structure
 
@@ -48,7 +48,7 @@ cd To-Do-List-Application
 py todo.py
 ```
 
-or
+Or:
 
 ```bash
 python todo.py
@@ -69,15 +69,19 @@ Enter your choice (1-4):
 ## Functionality
 
 ### View Tasks
+
 Displays all existing tasks stored in the application.
 
 ### Add Task
+
 Allows users to add a new task to the task list.
 
 ### Remove Task
+
 Allows users to delete a task by selecting its corresponding number.
 
 ### Exit
+
 Saves all tasks and exits the application safely.
 
 ## Data Storage
@@ -92,7 +96,7 @@ This ensures that tasks persist between program sessions.
 
 ## Author
 
-**Aravind**
+Aravind
 
 ## License
 
