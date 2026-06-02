@@ -1,23 +1,26 @@
 # To-Do List Application
 
 ## Description
-A simple console-based To-Do List application developed using Python. This application allows users to manage their daily tasks through a menu-driven interface. Tasks are stored in a text file so that they remain available even after the program is closed.
+
+A simple console-based To-Do List application developed using Python. This application allows users to manage their daily tasks through a menu-driven interface. Tasks are stored in a text file, ensuring they remain available even after the program is closed.
 
 ## Features
+
 - View all tasks
 - Add new tasks
 - Remove existing tasks
-- Save tasks to a file
+- Save tasks automatically
 - Persistent task storage using `tasks.txt`
-- Easy-to-use menu-driven interface
+- User-friendly menu-driven interface
 
 ## Technologies Used
+
 - Python 3
-- Text File Handling
+- File Handling
 
 ## Project Structure
 
-```
+```text
 To-Do-List-Application/
 │
 ├── todo.py
@@ -27,19 +30,19 @@ To-Do-List-Application/
 
 ## How to Run
 
-### Step 1: Clone the Repository
+### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Aravind731-bit/To-Do-List-Application.git
 ```
 
-### Step 2: Navigate to the Project Folder
+### 2. Navigate to the Project Directory
 
 ```bash
 cd To-Do-List-Application
 ```
 
-### Step 3: Run the Program
+### 3. Run the Application
 
 ```bash
 py todo.py
@@ -66,30 +69,30 @@ Enter your choice (1-4):
 ## Functionality
 
 ### View Tasks
-Displays all saved tasks.
+Displays all existing tasks stored in the application.
 
 ### Add Task
-Allows the user to add a new task to the list.
+Allows users to add a new task to the task list.
 
 ### Remove Task
-Allows the user to remove a task by selecting its number.
+Allows users to delete a task by selecting its corresponding number.
 
 ### Exit
-Saves all tasks and exits the application.
+Saves all tasks and exits the application safely.
 
-## File Storage
+## Data Storage
 
-Tasks are stored in:
+All tasks are stored in:
 
 ```text
 tasks.txt
 ```
 
-This ensures that tasks remain available even after closing and reopening the application.
+This ensures that tasks persist between program sessions.
 
 ## Author
 
-Aravind
+**Aravind**
 
 ## License
 
